@@ -8,6 +8,7 @@
 .service-dep{
     border-radius: 8px 8px 8px 8px;
     height: auto;
+
 }
 
 .development{
@@ -127,7 +128,7 @@
     left: 1%;
     text-align: center;
     color: silver;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: monospace;
     font-weight: bold;
     z-index: ;
@@ -186,7 +187,6 @@ background: whit;
 
 @media(min-width: 770px){.service-dep-main-hd{
     color: navy;
-    
 }
     
 }
