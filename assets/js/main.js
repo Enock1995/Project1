@@ -22,19 +22,24 @@
         
   /* JS FOR NEXT IMAGE */   
   const events = [
-  {
-    image: 'Images/Chomunanga/14_Sept.jpg',
-    date: '2024-09-14'
+    {
+    image: 'Images/Chomunanga/29_March.jpg',
+    date: '2025-03-29'
   },
   
   {
-    image: 'Images/Chomunanga/28_Sept.jpg',
-    date: '2024-09-28'
+    image: 'Images/Chomunanga/20_April.jpg',
+    date: '2025-04-20'
+  },
+  
+  {
+    image: 'Images/Chomunanga/24_May.jpg',
+    date: '2025-05-24'
   },
   
     {
     image: 'Images/header.jpg',
-    date: '2024-12-31'
+    date: '2025-12-31'
   },
   
   // Add more events here...
@@ -64,18 +69,23 @@ window.addEventListener('load', updateNextEvent);
        
       var date = new Date();
       
+      var march_29 = new Date(2025, 02, 29);
+     var april_20 = new Date(2025, 03, 20);
+     var may_24 = new Date(2025, 04, 24);
      
-     var sept_14 = new Date(2024, 08, 15);
-     var sept_28 = new Date(2024, 08, 29);
      
-     
-     if(date.getTime() < sept_14.getTime()){
- document.getElementById('dates').innerHTML =   "13 & 14 September 2024";
+     if(date.getTime() < march_29.getTime()){
+ document.getElementById('dates').innerHTML =   "29 March 2025";
      
      }
-     else if(date.getTime() < sept_28.getTime()){
      
-     document.getElementById('dates').innerHTML = "28 September 2024";
+    else if(date.getTime() < april_20.getTime()){
+ document.getElementById('dates').innerHTML =   "20 & 21 April 2025";
+     
+     }
+     else if(date.getTime() < may_24.getTime()){
+     
+     document.getElementById('dates').innerHTML = "24 May 2025";
 
      }
      else
@@ -91,18 +101,23 @@ window.addEventListener('load', updateNextEvent);
        
       var date = new Date();
       
+     var march_29 = new Date(2025, 02, 29);    
+     var april_20 = new Date(2025, 03, 20);
+     var may_24 = new Date(2025, 04, 24);
      
-     var sept_14 = new Date(2024, 08, 15);
-     var sept_28 = new Date(2024, 08, 29);
      
-     
-     if(date.getTime() < sept_14.getTime()){
- document.getElementById('names').innerHTML =   "Mike Matare & Vimbai Gono";
+     if(date.getTime() < march_29.getTime()){
+ document.getElementById('names').innerHTML =   "Cephas Coronat & Privilege Shoko";
      
      }
-     else if(date.getTime() < sept_28.getTime()){
      
-     document.getElementById('names').innerHTML = "Keyas Gumbo & Caroline Hungwe";
+    else if(date.getTime() < april_20.getTime()){
+ document.getElementById('names').innerHTML =   "Robson Singende & Thelma Ngwenya";
+     
+     }
+     else if(date.getTime() < may_24.getTime()){
+     
+     document.getElementById('names').innerHTML = "Tavonga Marima & Sununguko Magwisa";
 
      }
      else
@@ -118,18 +133,23 @@ window.addEventListener('load', updateNextEvent);
        
     var date = new Date();
       
+     var march_29 = new Date(2025, 02, 29);
+     var april_20 = new Date(2025, 03, 20);
+     var may_24 = new Date(2025, 04, 24);
      
-     var sept_14 = new Date(2024, 08, 14);
-     var sept_28 = new Date(2024, 08, 28);
      
+      if(date.getTime() < march_29.getTime()){
+ document.getElementById('nestnames').innerHTML = "Cephas Coronat & Privilege Shoko";
      
-     if(date.getTime() < sept_14.getTime()){
- document.getElementById('nestnames').innerHTML = "Mike Matare & Vimbai Gono";
+     }   
+     
+     else if(date.getTime() < april_20.getTime()){
+ document.getElementById('nestnames').innerHTML = "Robson Singende & Thelma Ngwenya";
      
      }
-     else if(date.getTime() < sept_28.getTime()){
+     else if(date.getTime() < may_24.getTime()){
      
-     document.getElementById('nestnames').innerHTML = "Keyas & Caroline";
+     document.getElementById('nestnames').innerHTML = "Tavonga & Sununguko";
 
      }
      else
@@ -146,18 +166,23 @@ window.addEventListener('load', updateNextEvent);
        
       var date = new Date();
       
+     var march_29 = new Date(2025, 02, 29);
+     var april_20 = new Date(2025, 03, 20);
+     var may_24 = new Date(2025, 04, 24);
      
-     var sept_14 = new Date(2024, 08, 14);
-     var sept_28 = new Date(2024, 08, 28);
-     
-     
-     if(date.getTime() < sept_14.getTime()){
- document.getElementById('nestdates').innerHTML =   "13 & 14 September 2024";
+    
+    if(date.getTime() < april_20.getTime()){
+ document.getElementById('nestdates').innerHTML =   "29 March 2025";
      
      }
-     else if(date.getTime() < sept_28.getTime()){
      
-     document.getElementById('nestdates').innerHTML = "28 September 2024";
+     else if(date.getTime() < april_20.getTime()){
+ document.getElementById('nestdates').innerHTML =   "20 & 21 April 2025";
+     
+     }
+     else if(date.getTime() < may_24.getTime()){
+     
+     document.getElementById('nestdates').innerHTML = "24 May 2025";
 
      }
      else
@@ -177,18 +202,23 @@ window.addEventListener('load', updateNextEvent);
        
       var date = new Date();
       
+     var march_29 = new Date(2025, 02, 29);
+     var april_20 = new Date(2025, 03, 20);
+     var may_24 = new Date(2025, 04, 24);
      
-     var sept_14 = new Date(2024, 08, 14);
-     var sept_28 = new Date(2024, 08, 28);
      
-     
-     if(date.getTime() < sept_14.getTime()){
- document.getElementById('nestvenue1').innerHTML =   "Gono Homestead, Mazare, Sanangwe Primary School, Masvingo.";
+      if(date.getTime() < march_29.getTime()){
+ document.getElementById('nestvenue1').innerHTML =   "Mr and Mrs Maphosa homestead, 301 Shasha block of farms, Zvamahande.";
      
      }
-     else if(date.getTime() < sept_28.getTime()){
      
-     document.getElementById('nestvenue1').innerHTML = "Gumbo Homestead, Runde Primary School";
+    else if(date.getTime() < april_20.getTime()){
+ document.getElementById('nestvenue1').innerHTML =   "Manongore homestead, Mavangwa, Runde.";
+     
+     }
+     else if(date.getTime() < may_24.getTime()){
+     
+     document.getElementById('nestvenue1').innerHTML = "Marima Homestead, Chomunanga HQ, Runde";
 
      }
      else
@@ -205,16 +235,21 @@ window.addEventListener('load', updateNextEvent);
        
       var date = new Date();
       
+     var march_29 = new Date(2025, 02, 29);
+     var april_20 = new Date(2025, 03, 20);
+     var may_24 = new Date(2025, 04, 24);
      
-     var sept_14 = new Date(2024, 08, 14);
-     var sept_28 = new Date(2024, 08, 28);
      
-     
-     if(date.getTime() < sept_14.getTime()){
- document.getElementById('nestvenue2').innerHTML =   "Matare Homestead, Vhudzi Township, Chirumanzu";
+        if(date.getTime() < march_29.getTime()){
+ document.getElementById('nestvenue2').innerHTML =   "Only One Reception.";
      
      }
-     else if(date.getTime() < sept_28.getTime()){
+     
+    else if(date.getTime() < april_20.getTime()){
+ document.getElementById('nestvenue2').innerHTML =   "Singende Homestead, Chishavakadzi Secondary school, Chibi";
+     
+     }
+     else if(date.getTime() < may_24.getTime()){
      
      document.getElementById('nestvenue2').innerHTML = "Only One Reception.";
 
@@ -226,6 +261,8 @@ window.addEventListener('load', updateNextEvent);
       
      }
      
+     
+     
    /* Calculating Number of days left to the next event*/
    
    function getDaysUntilNextEvent() {
@@ -234,10 +271,13 @@ window.addEventListener('load', updateNextEvent);
   
   // Define the series of events
   const events = [
-    new Date(today.getFullYear(), 7, 11),   // August 11(0-indexed)
-    new Date(today.getFullYear(), 7, 31),   // August 31
-    new Date(today.getFullYear(), 8, 13),   // September 13
-    new Date(today.getFullYear(), 8, 28),  // September 28
+  
+  new Date(today.getFullYear(), 2, 29), // March 29
+  
+    new Date(today.getFullYear(), 3, 20),   // April 20(0-indexed)
+    
+   new Date(today.getFullYear(), 4, 24), // May 24
+    
   ];
   
   // Loop through the events to find the next upcoming event
@@ -247,13 +287,17 @@ window.addEventListener('load', updateNextEvent);
       const timeDifference = events[i] - today;
       // Convert to days
       const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
-      return `${daysDifference}`;
+      
+      
+    return `${daysDifference}`;
+    
     }
   }
 
   // If no future events found
   return "#";
 }
+
 
 // Example usage: Insert result into an HTML element with ID 'eventDays'
 function displayDaysUntilNextEvent() {
